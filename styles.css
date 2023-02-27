@@ -1,0 +1,60 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+    justify-content: center;
+    align-items:  center;
+}
+
+.gen-FAQ {
+    display: flex;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 1rem;
+    gap: 2rem;
+    height: 70vh;
+    width: 70vw;
+    align-items: center;
+    margin: 6rem 10rem;
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+
+.woman-FAQ img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10rem;
+}
+
+.woman-FAQ {
+    position: relative;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box-FAQ {
+    position: relative;
+    bottom: 12rem;
+    right: 5rem;
+}
+
+.FAQ-content {
+    width: 50%;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.FAQ-questions {
+    display:flex;
+    padding-bottom: 1rem;
+}
+

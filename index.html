@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaQ-Accordion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="gen-FAQ">
+        <div class="FAQ-image">
+            <div class="woman-FAQ">
+            <img src="./images/illustration-woman-online-desktop.svg" alt="A picture of a woman ">
+            </div>
+            <div class="box-FAQ">
+                <img src="./images/illustration-box-desktop.svg" alt="A box picture">
+            </div>
+        </div>
+
+        
+         <div class="FAQ-content"> 
+            <h2>FAQ</h2>
+
+            <div class="FAQ-questions"  >
+                <p  class="FAQ-p" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> How many team members can I invite?</p>
+                <div class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="arrow dropdown" class="arrow">
+                </div>
+            </div>
+            <div class="FAQ-answers">
+                <p><button id="collapseOne" class="accordion" aria-labelledby="FAQ-p" data-bs-parent="FAQ-questions">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</button></p>
+            </div>
+                <hr>
+
+            <div class="FAQ-questions">
+                <p class="FAQ-p" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is the maximum file upload size?</p>
+                <div class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="arrow dropdown">
+                </div>
+            </div>
+            <div class="FAQ-answers">
+                <p><button id="collapseOne" class="accordion" aria-labelledby="FAQ-p" data-bs-parent="FAQ-questions">No more than 2GB. All files in your account must fit your allotted storage space.</button></p>
+            </div>
+                <hr>
+
+            <div class="FAQ-questions">
+                <p class="FAQ-p" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How do I reset my password?</p>
+                <div class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="arrow dropdown">
+                </div>
+            </div>
+            <div class="FAQ-answers">
+                <p> <button id="collapseOne" class="accordion" aria-labelledby="FAQ-p" data-bs-parent="FAQ-questions">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</button></p>
+            </div>
+                <hr>
+
+            <div class="FAQ-questions">
+                <p class="FAQ-p" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Can I cancel my subscription?</p>
+                <div class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="arrow dropdown">
+                </div>
+            </div>
+            <div class="FAQ-answers">
+                <p> <button id="collapseOne" class="accordion" aria-labelledby="FAQ-p" data-bs-parent="FAQ-questions">Yes! Send us a message and we'll process your request on questions asked.</button></p>
+            </div>
+                <hr>
+
+            <div class="FAQ-questions">
+                <p class="FAQ-p" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Do you provide additional support?</p>
+                <div class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="arrow dropdown">
+                </div>
+            </div>
+            <div class="FAQ-answers">
+                <p> <button id="collapseOne" class="accordion" aria-labelledby="FAQ-p" data-bs-parent="FAQ-questions">Chat and email support is available 24/7. Phone lines are open during normal business hours.</button></p>
+            </div>
+
+        </div> 
+    </div>
+</body>
+</html>
